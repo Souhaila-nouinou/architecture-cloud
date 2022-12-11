@@ -19,7 +19,7 @@ export function Myserver() {
     });
     
     server.listen(port , ()=>{
-        // console.log(`The server is listening in the port ${port}`);
+        console.log(`The server is listening in the port ${port}`);
     });
     return server;
 }
