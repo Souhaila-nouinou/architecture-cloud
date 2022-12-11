@@ -30,6 +30,8 @@ RUN npm run build
 
 # exécution
 #  CMD ...
+#-------------------------------------------------
+
 FROM alpine:3.15 as runner
 
 WORKDIR /architecture-cloud
