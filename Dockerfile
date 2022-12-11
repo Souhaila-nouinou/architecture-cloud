@@ -5,6 +5,7 @@ FROM alpine:3.15 as builder
 # chemin de travail
 WORKDIR /architecture-cloud
 
+#add
 # installation des paquets système
 #  RUN ...
 # RUN echo 'we are running some # of cool things'
